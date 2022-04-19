@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Car Buying Website</title>
+  <meta name="description" content="Car Buying Website" />
+  <meta name="keywords" content="Car Buying Website" />
+  <meta name="author" content="Dillon Coleman" />
+  <link rel="stylesheet" href="carbuyingwebsite.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+</head>
+<!--- right click and select open with live server-->
+
+<body>
+  <header style="height: 85px; background-color: #6C757D">
+    <h1 style="text-align: right; padding: 18px; color: white">
+      Web Site Title
+      <img align="left" src="https://placehold.jp/150x50.png" />
+    </h1>
+  </header>
+
+  <div class="container-fluid" style="padding: 20px">
+    <div class="row">
+      <div class="col-3" style="text-align: center">
+        <b style="color: #6C757D">Product Search</b>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item" style="text-align: left; ">
+            Make
+            <div class="dropdown">
+              <div class="d-grid">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Dropdown list
+                </button>
+              </div>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="list-group-item" style="text-align: left">
+            Model
+            <div class="dropdown">
+              <div class="d-grid">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Dropdown list
+                </button>
+              </div>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="list-group-item" style="text-align: left">
+            Engine Size
+            <div class="dropdown">
+              <div class="d-grid">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Dropdown list
+                </button>
+              </div>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="list-group-item" style="text-align: left">
+            Model
+            <div class="dropdown">
+              <div class="d-grid">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Dropdown list
+                </button>
+              </div>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="list-group-item" style="text-align: left">
+            Price
+            <div class="row">
+              <div class="col" style="padding-left: 1; padding-right: 1%;">
+                <div class="dropdown">
+                  <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" style="width: 100%;"
+                    aria-expanded="false">
+                    Min
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col" style="padding-right: 1; padding-left: 1%;">
+                <div class="dropdown">
+                  <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" style="width: 100%;"
+                    aria-expanded="false">
+                    Max
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li>
+                      <a class="dropdown-item" href="#">Another action</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          <li class="list-group-item">
+            <div class="d-grid"><button type="button" class="btn btn-secondary " style="text-decoration: underline;">
+                Search
+              </button>
+            </div>
+          </li>
+      </div>
+      </li>
+      </ul>
+      <div class="col-9">
+        <div class="row">
+          <div class="container" style="position: relative; display: inline-block;">
+            <img src="http://via.placeholder.com/400x100" style="width: 100%; display: inline-block; position: relative;">
+            <div class="main-image"
+              style="position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); text-align: center; background-color: #6C757D; width: 300px">
+              <b style="color: white">30% OFF ALL CARS!!!</b>
+              <br>
+              <br>
+              <a href="#" class="stretched-link">Click here now</a>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="padding-top: 30px;">
+          <b style="color:#6C757D; padding-bottom: 5px">Top Deals</b>
+          <div class="col">
+            <li class="list-group-item" style="font-size: small;">
+              <div class="card">
+                <img src="https://via.placeholder.com/200x150" class="card-img-top">
+                <div class="card-body" style="text-align: center;">
+                  <a href="#" class="stretched-link">Car&nbsp;Make&nbsp;&&nbsp;Model</a>
+                  <br>
+                  <a href="#" class="stretched-link">Millage</a>
+                  <br>
+                  <a href="#" class="stretched-link">Price</a>
+                </div>
+              </div>
+            </li>
+          </div>
+          <div class="col">
+            <li class="list-group-item" style="font-size: small;">
+              <div class="card">
+                <img src="https://via.placeholder.com/200x150" class="card-img-top">
+                <div class="card-body" style="text-align: center;">
+                  <a href="#" class="stretched-link">Car&nbsp;Make&nbsp;&&nbsp;Model</a>
+                  <br>
+                  <a href="#" class="stretched-link">Millage</a>
+                  <br>
+                  <a href="#" class="stretched-link">Price</a>
+                </div>
+              </div>
+            </li>
+          </div>
+          <div class="col">
+            <li class="list-group-item" style="font-size: small;">
+              <div class="card">
+                <img src="https://via.placeholder.com/200x150" class="card-img-top">
+                <div class="card-body" style="text-align: center;">
+                  <a href="#" class="stretched-link">Car&nbsp;Make&nbsp;&&nbsp;Model</a>
+                  <br>
+                  <a href="#" class="stretched-link">Millage</a>
+                  <br>
+                  <a href="#" class="stretched-link">Price</a>
+                </div>
+              </div>
+            </li>
+          </div>
+          <div class="col">
+            <li class="list-group-item" style="font-size: small;">
+              <div class="card">
+                <img src="https://via.placeholder.com/200x150" class="card-img-top">
+                <div class="card-body" style="text-align: center;">
+                  <a href="#" class="stretched-link">Car&nbsp;Make&nbsp;&&nbsp;Model</a>
+                  <br>
+                  <a href="#" class="stretched-link">Millage</a>
+                  <br>
+                  <a href="#" class="stretched-link">Price</a>
+                </div>
+              </div>
+            </li>
+          </div>
+        </div>
+        <div class="row" style="padding-top: 15px;">
+          <b style="color:#6C757D; padding-bottom: 5px">Recently Added</b>
+          <div class="col">
+            <li class="list-group-item" style="font-size: small;">
+              <div class="card">
+                <img src="https://via.placeholder.com/200x150" class="card-img-top">
+                <div class="card-body" style="text-align: center;">
+                  <a href="#" class="stretched-link">Car&nbsp;Make&nbsp;&&nbsp;Model</a>
+                  <br>
+                  <a href="#" class="stretched-link">Millage</a>
+                  <br>
+                  <a href="#" class="stretched-link">Price</a>
+                </div>
+              </div>
+            </li>
+          </div>
+          <div class="col">
+            <li class="list-group-item" style="font-size: small;">
+              <div class="card">
+                <img src="https://via.placeholder.com/200x150" class="card-img-top">
+                <div class="card-body" style="text-align: center;">
+                  <a href="#" class="stretched-link">Car&nbsp;Make&nbsp;&&nbsp;Model</a>
+                  <br>
+                  <a href="#" class="stretched-link">Millage</a>
+                  <br>
+                  <a href="#" class="stretched-link">Price</a>
+                </div>
+              </div>
+            </li>
+          </div>
+          <div class="col">
+            <li class="list-group-item" style="font-size: small;">
+              <div class="card">
+                <img src="https://via.placeholder.com/200x150" class="card-img-top">
+                <div class="card-body" style="text-align: center;">
+                  <a href="#" class="stretched-link">Car&nbsp;Make&nbsp;&&nbsp;Model</a>
+                  <br>
+                  <a href="#" class="stretched-link">Millage</a>
+                  <br>
+                  <a href="#" class="stretched-link">Price</a>
+                </div>
+              </div>
+            </li>
+          </div>
+          <div class="col">
+            <li class="list-group-item" style="font-size: small;">
+              <div class="card">
+                <img src="https://via.placeholder.com/200x150" class="card-img-top">
+                <div class="card-body" style="text-align: center;">
+                  <a href="#" class="stretched-link">Car&nbsp;Make&nbsp;&&nbsp;Model</a>
+                  <br>
+                  <a href="#" class="stretched-link">Millage</a>
+                  <br>
+                  <a href="#" class="stretched-link">Price</a>
+                </div>
+              </div>
+            </li>
+          </div>
+        </div>
+        <div class="row" style="padding-top: 30px;">
+          <b style="color:#6C757D; padding-bottom: 5px">Blog Posts</b>
+          <div class="row">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-2">
+                  <img src="https://via.placeholder.com/200x150" class="img-fluid rounded-start" style="padding: 15px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col">
+                        <h5>Blog Title</h5>
+                      </div>
+                      <div class="col">
+                        <div class="d-flex justify-content-end">
+                          <button type="button" class="btn btn-secondary" aria-expanded="false"
+                            style="text-decoration: underline;">
+                            Read More
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <h6 class="card-title">Author</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices blandit
+                      erat sed fermentum. Sed scelerisque lacus
+                      et condimentum congue. Morbi eu purus id mauris lobortis bibendum. Praesent nec placerat mi.
+                      Maecenas sodales fermentum
+                      turpis a vehicula. Maecenas sit amet ante urna.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-2">
+                  <img src="https://via.placeholder.com/200x150" class="img-fluid rounded-start" style="padding: 15px;">
+                </div>
+                <div class="col-md-10">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col">
+                        <h5>Blog Title</h5>
+                      </div>
+                      <div class="col">
+                        <div class="d-flex justify-content-end">
+                          <button type="button" class="btn btn-secondary" aria-expanded="false"
+                            style="text-decoration: underline;">
+                            Read More
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <h6 class="card-title">Author</h6>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultrices blandit
+                      erat sed fermentum. Sed scelerisque lacus
+                      et condimentum congue. Morbi eu purus id mauris lobortis bibendum. Praesent nec placerat mi.
+                      Maecenas sodales fermentum
+                      turpis a vehicula. Maecenas sit amet ante urna.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row" style="background-color: #6C757D;">
+    <b style="color: white; margin-left: 50px;">Footer Text</b>
+  </div>
+</body>
+
+</html>
